@@ -51,7 +51,7 @@ new TypeIt("#type1", {
   .pause(24)
   .delete(36)
 
-  .type("You were Hacked...", { delay: 1000})
+  .type("You were Hacked..", { delay: 1000})
   .pause(31)
   .delete(31)
   
