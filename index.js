@@ -70,7 +70,7 @@ new TypeIt("#type2", {
 .type("BasicProgramming", { delay: 400 })
 .pause(100)
 .delete(17)
-.type("TryHackMe", { delay: 400 })
+.type("CaptureTheFlags", { delay: 400 })
 .pause(100)
 .delete(9)
 .pause(10)
