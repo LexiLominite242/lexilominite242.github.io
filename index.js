@@ -47,11 +47,11 @@ new TypeIt("#type1", {
   .delete(31)
 	
  
- .type("Injecting code... ", { delay: 1000 })
+ .type("Injecting Code... ", { delay: 1000 })
   .pause(24)
   .delete(36)
 
-  .type("You were Hacked.....", { delay: 1000})
+  .type("You were Hacked...", { delay: 1000})
   .pause(31)
   .delete(31)
   
