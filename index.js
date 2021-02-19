@@ -68,22 +68,22 @@ new TypeIt("#type2", {
 })
 
 .type("BasicProgramming", { delay: 400 })
-.pause(100)
+.pause(31)
 .delete(17)
 .type("CaptureTheFlags", { delay: 400 })
-.pause(100)
-.delete(100)
-.pause(10)
+.pause(30)
+.delete(30)
+.pause(34)
 .type("HackTheBox", { delay: 400 })
-.pause(1000)
-.delete(100)
+.pause(30)
+.delete(30)
 .pause(10)
 .type("WebPenetrationTesting", { delay: 400 })
-.pause(100)
-.delete(100)
+.pause(23)
+.delete(30)
 .type("SocialEngineering", { delay: 400 })
-.pause(100)
-.delete(100)
+.pause(26)
+.delete(30)
 .go();
 
 
@@ -149,3 +149,4 @@ window.addEventListener("DOMContentLoaded", function() {
     };
     xhr.send(data);
   }
+
