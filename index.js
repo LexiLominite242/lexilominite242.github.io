@@ -37,7 +37,7 @@ new TypeIt("#type3", {
   loop: true,
   waitUntilVisible: true,
 })
-   .type("( : : (  ) : : )_______________", { delay: 1000})
+   .type("( : : (  ) : : )", { delay: 1000})
    .pause(30)
    .delete(15) 
   
