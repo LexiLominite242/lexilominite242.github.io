@@ -36,16 +36,16 @@ new TypeIt("#type3", {
   speed: 150,
   loop: true,
   waitUntilVisible: true,
-})  .type("Welcome"), { delay: 1000})
+})  .type("Welcome", { delay: 1000})
    .pause(30)
    .delete(15) 
-   .type("To"), { delay: 100})
+   .type("To", { delay: 100})
    .pause(35)
    .delete(15) 
-    .type("My"), { delay: 1000})
+    .type("My", { delay: 1000})
    .pause(40)
    .delete(15) 
-   .type("DataBase"), { delay: 1000})
+   .type("DataBase", { delay: 1000})
    .pause(50)
    .delete(15) 
    .go();
