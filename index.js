@@ -37,8 +37,8 @@ new TypeIt("#type3", {
   loop: true,
   waitUntilVisible: true,
 })
-   .type("( : : (  ) : : )", { delay: 1000})
-   .pause(30)
+   .type("DataBase)", { delay: 10000})
+   .pause(100)
    .delete(15) 
   
   .go();
