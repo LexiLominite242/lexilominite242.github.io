@@ -38,7 +38,7 @@ new TypeIt("#type3", {
   waitUntilVisible: true,
 })
    .type("( : : (  ) : : )_______________", { delay: 1000})
-   .pause(16)
+   .pause(30)
    .delete(15) 
   
   .go();
