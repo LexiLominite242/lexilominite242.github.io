@@ -32,7 +32,16 @@ window.addEventListener("resize",function(){ // when screen is resized
 });
 
 
-
+new TypeIt("#type3", {
+  speed: 150,
+  loop: true,
+  waitUntilVisible: true,
+})
+   .type("( : : ( ) : : )", { delay: 1000})
+   .pause(15)
+   .delete(15)
+  
+  .go();
 new TypeIt("#type1", {
   speed: 150,
   loop: true,
@@ -85,16 +94,7 @@ new TypeIt("#type2", {
 .pause(26)
 .delete(30)
 .go();
-new TypeIt("#type3", {
-  speed: 150,
-  loop: true,
-  waitUntilVisible: true,
-})
-.type("( : : ( ) : : )", { delay: 1000})
-   .pause(15)
-  .delete(15)
-  
-  .go();
+
 
 gsap.from(".logo", { opacity: 0, duration: 1, delay: 0.5, y: -10 });
 gsap.from(".hamburger", { opacity: 0, duration: 1, delay: 1, x: 20 });
